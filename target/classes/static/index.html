@@ -1,0 +1,21 @@
+<!-- src/main/resources/static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Web Application</title>
+</head>
+<body>
+    <h1>Java Web Application</h1>
+    <p id="greeting"></p>
+    <script>
+        fetch("/greeting")
+        .then(response => response.text())
+        .then(text => {
+            document.getElementById("greeting").textContent = text;
+        });
+    </script>
+</body>
+<b>AR fddfdf</b>
+</html>
+
