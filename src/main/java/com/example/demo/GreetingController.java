@@ -14,7 +14,7 @@ public class GreetingController {
     @GetMapping("/greeting")
     public String greeting() {
     	
-        return message+" java";
+        return message+" Welcome to Java";
     }
 }
 
